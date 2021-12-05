@@ -1,4 +1,5 @@
 import TaskList from './TaskList';
+import { PureTaskList } from './TaskList';
 import * as TaskStories from './Task.stories';
 
 export default {
