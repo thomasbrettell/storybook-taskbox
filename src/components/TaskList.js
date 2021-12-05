@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from 'react-redux';
 // import { archiveTask, pinTask } from '../lib/redux';
 import { updateTaskState } from '../lib/store';
 
-export default function PureTaskList({ loading, tasks, onPinTask, onArchiveTask }) {
+export function PureTaskList({ loading, tasks, onPinTask, onArchiveTask }) {
   const events = {
     onPinTask,
     onArchiveTask,
